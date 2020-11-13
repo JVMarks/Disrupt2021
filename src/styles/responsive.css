@@ -1,0 +1,265 @@
+@media (max-width: 900px){
+
+#logo {
+  left: 0px;
+  right: 0px;
+  float: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  left: 0px;
+  right: 0px;
+  float: none;
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card{
+  width: 80vw;
+  margin-left: 0rem;
+  margin-bottom: 0rem;
+}
+
+.card h1{
+  width: 23rem;
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+.card  h3{
+  width: 23rem;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.card  p{
+  width: 23rem;
+  margin-left: 1rem;
+}
+
+/*Places*/
+.tabFacts {
+  margin-top: 5rem;
+  padding: 0px;
+ 
+}
+
+.tabFacts h1 {
+  margin-left: 15%;
+  font-size: 2rem;
+  width: 20rem;
+}
+
+.tabContainer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tabContainer img {
+  width: 80vw;
+  float: none;
+  margin-top: 30px;
+  margin-right: 0px;
+}
+
+#tabContainer2 img {
+  width: 80vw;
+  float: none;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.tabText {
+  padding: 25px;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 0px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tabContainer h2 {
+  font-size: 2rem;
+}
+
+.tabContainer p {
+  font-size: 1.2rem;
+}
+
+/*SECTION*/
+article {
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+blockquote:before {
+font-size: 70px;
+margin-top: -20px;
+margin-left: -25px;
+}
+
+blockquote:after {
+  font-size: 70px;
+  margin-top: -3.5rem;
+  margin-left: 19.5rem;
+}
+
+blockquote cite {
+font-size: 0.9rem;
+font-weight: 200;
+margin-top: 5px;
+}
+
+blockquote {
+  width: 25rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+/*CONTAINER2*/
+.secondimg {
+  width: 9rem;
+  float: left;
+  margin-top: -15px;
+  margin-right: 50px;
+  margin-left: -20px;
+}
+
+.content2 {
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.content2 h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.content2 p {
+  width: 10rem;
+  font-size: 1rem;
+}
+
+/*refereces*/
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+nav ul li {
+  font-size: 0.9rem;
+}
+
+.card{
+  padding: 10px;
+  width: 85vw;
+}
+  
+.card h1{
+  width: 18rem;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+}
+  
+.card  h3{
+  width: 18rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+  
+.card  p{
+  width: 18rem;
+  margin-left: 0.5rem;
+}
+  
+ /*Places*/
+.tabFacts h1 {
+  margin-left: 6%;
+}
+
+/*animation*/
+#animationContainer{
+  display: none;
+}
+
+/*SECTION*/
+blockquote:before {
+font-size: 50px;
+margin-top: -20px;
+margin-left: -25px;
+}
+
+blockquote:after {
+  font-size: 50px;
+  margin-top: -3.4rem;
+  margin-left: 11.5rem;
+}
+
+blockquote cite {
+font-size: 0.9rem;
+font-weight: 200;
+margin-top: 5px;
+}
+
+blockquote {
+  width: 20rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.secondimg {
+ display: none;
+}
+
+.content2 p {
+ width: 14rem;
+}
+
+
+/*FOOTER*/
+footer {
+height: 25rem;
+}
+
+footer h1 {
+  font-size: 2rem;
+}
+
+footer h3 {
+  font-size: 1rem;
+}
+
+footer img{
+ width: 5rem;
+}
+
+footer i{
+margin: 10px;
+}
+
+footer .footer-goback a img{
+ width: 3rem;
+}
+
+}

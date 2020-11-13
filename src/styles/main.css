@@ -1,0 +1,476 @@
+/*MENU*/
+nav {
+  position: absolute;
+  right: 0px;
+}
+
+#logo {
+  font-size: 30px;
+  float: left;
+  position: absolute;
+  padding: 25px;
+}
+
+li {
+  display: block;
+  margin-left: 1px;
+}
+
+#logo {
+  text-decoration: none;
+  color: white;
+}
+
+.link {
+  position: relative;
+}
+
+.link:after {
+  content: '';
+  position: absolute;
+  bottom: -.4em;
+  left: 50%;
+  right: 50%;
+  height: 1px;
+  background: currentColor;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.link:hover:after {
+  left: 0;
+  right: 0;
+  height: 2px;
+}
+
+.link:before {
+  position: absolute;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  left: -10px;
+  color: #eee;
+  opacity: .3;
+  font-weight: 100;
+  font-size: .8em;
+}
+
+nav ul li {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 15px;
+  list-style-type: none;
+}
+
+nav ul {
+  float: right;
+  display: block;
+  padding: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Primeiro conteudo*/
+.fastContainer {
+  background: url("../assets/imgs/background.jpg");
+  background-size: cover;
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.card{
+  margin-left: 43rem;
+  margin-bottom: 25rem;
+  opacity:0.9;
+  width: 50vw;
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  background-color:#317AD8;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.card h1{
+  margin-left: 3rem;
+  width: 38rem;
+  font-style: italic;
+  font-size: 5rem;
+  color: #F2F2F2;
+}
+
+.card  h3{
+  margin-left: 3rem;
+  width: 38rem;
+  font-style: italic;
+  font-size: 3rem;
+  color: #F2F2F2;
+}
+
+.card  p{
+  margin-left: 3rem;
+  width: 38rem;
+  color: #F2F2F2;
+}
+
+/*Places*/
+.tabFacts {
+  padding: 80px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-bottom: 2px solid #F2F2F2;
+}
+
+.tabFacts h1 {
+  font-family: League Spartan, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabFacts p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.tabButton {
+  border: none;
+  margin-top: 30px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 500px;
+  border: 2px solid #343538;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #343538;
+  font-size: 17px;
+  margin-right: 20px;
+  transition: all 0.2s linear;
+}
+
+.tabButton:hover {
+  background-color: #1f2021;
+  color: white;
+  border: 2px solid #1f2021;
+}
+
+#button1 {
+  background-color: black;
+}
+
+.tabContainer {
+  height: 35rem;
+  max-width: 90rem;
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+#tabContainer2, #tabContainer3, #tabContainer4 {
+  display: none;
+  transition: all 0.2s linear;
+}
+
+.tabContainer img {
+  width: 50vw;
+  float: left;
+  margin-top: 30px;
+  margin-right: 50px;
+  border-radius:8px 8px 8px 8px;
+}
+
+#tabContainer2 img {
+  width: 50vw;
+  float: right;
+  margin-top: 30px;
+  margin-left: 50px;
+  border-radius:8px 8px 8px 8px;
+}
+
+.tabText {
+  padding: 25px;
+  margin-top: 50px;
+  text-align: justify;
+  margin-left: 100px;
+}
+
+.tabContainer h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-style: italic;
+  text-align: left;
+  font-weight: 500;
+}
+
+.tabContainer p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+/*SECTION*/
+section {
+  border-top: 2px solid #F2F2F2;
+  border-bottom: 2px solid #F2F2F2;
+}
+
+article {
+  padding: 70px;
+  width: 1000px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-style: normal;
+font-size: 150px;
+font-family: League Spartan;
+position: absolute;
+margin-top: -50px;
+margin-left: -70px;
+color: #7a7a7a;
+}
+
+blockquote:after {
+  display: block;
+  content: "\201D";
+  font-style: normal;
+  font-size: 150px;
+  font-family: League Spartan;
+  position: absolute;
+  margin-top: -7.5rem;
+  margin-left: 50rem;
+  color: #7a7a7a;
+  }
+
+blockquote cite {
+color: #999999;
+font-size: 17px;
+display: block;
+font-weight: 200;
+margin-top: 5px;
+}
+
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
+blockquote {
+  margin-top: 70px;
+  width: 800px;
+  margin-bottom: 70px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: italic;
+  display: block;
+}
+
+/*CONTAINER2*/
+
+.secondimg {
+  width: 220px;
+  border-right: 2px solid #F2F2F2;
+  float: left;
+  margin-top: -15px;
+  margin-right: 50px;
+  margin-left: -20px;
+}
+
+.content2 {
+  padding: 100px;
+  width: 1100px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.content2 h2 {
+  font-size: 35px;
+  font-family: League Spartan, Helvetica, sans-serif;
+}
+
+.content2 p {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+/*refereces*/
+.container {
+  width: 100%;
+  border-top: 2px solid #F2F2F2;
+  border-bottom: 2px solid #F2F2F2;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-content: space-around;
+  transition: all 0.2s linear;
+}
+
+.item {
+  background-color: #343538;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 330px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: League Spartan, Helvetica, sans-serif;
+  flex-basis: 25%;
+}
+
+.item-2 {
+  background-color: #343538;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 330px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: League Spartan, Helvetica, sans-serif;
+  flex-basis: 25%;
+}
+
+.item-3 {
+  background-color: #343538;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 15px;
+  width: 330px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: League Spartan, Helvetica, sans-serif;
+  flex-basis: 25%;
+}
+
+.mail {
+  color: gray;
+  margin-top: -15px;
+  margin-left: 5rem;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 100px;
+  padding: 15px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+p {
+  margin-bottom: 17px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 15px;
+  font-size: 17px;
+  height: 53px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  width: 160px;
+  border-radius: 100px;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  margin-bottom: 25px;
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/*FOOTER*/
+footer {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #343538;
+  width: 100%;
+  padding: 20px;
+  bottom: 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 30%;
+  text-align: center;
+}
+
+footer h1 {
+  font-family: League Spartan, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+footer h3 {
+  font-weight: 300;
+  margin-top: 15px;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+footer img{
+ width: 9rem;
+ margin: 15px;
+}
+
+footer .links {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s linear;
+}
+
+footer .footer-goback a img{
+ width: 2rem;
+}
+
+footer a:hover {
+  opacity: 0.7;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  transition: all 0.2s linear;
+}

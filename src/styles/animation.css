@@ -1,0 +1,271 @@
+/*Animation for the div container start.*/
+#spaceAnimationHeading {
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  display: absolute;
+  margin-top: -100px;
+  margin-bottom: 20px;
+}
+
+#spaceCite {
+  font-size: 30px;
+}
+
+#spaceCite::before {
+  content: "\2014 \2009";
+}
+
+#animationContainer {
+  padding: 120px;
+  min-height: 500px;
+  animation-name: divBackground;
+  -webkit-animation-name: divBackground;
+  animation-duration: 5s;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  -webkit-animation-duration: 5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+#animationContainer2 {
+  padding: 90px;
+  min-height: 400px;
+  animation-name: divBackground;
+  -webkit-animation-name: divBackground;
+  animation-duration: 5s;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  -webkit-animation-duration: 5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes  divBackground {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: #343538;
+  }
+}
+
+@-webkit-keyframes  divBackground {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: #343538;
+  }
+}
+
+#box {
+  background-color: #592d00;
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: auto;
+  position: relative;
+  animation-name: box;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-name: box;
+  -webkit-animation-duration: 5s;
+  cursor: pointer;
+}
+
+#clickMe {
+  color: white;
+  font-family: League Spartan, Helvetica, sans-serif;
+  font-size: 27px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 250px;
+}
+
+@keyframes box {
+  from {
+    border-radius: 0px;
+    background-color: #592d00;
+    position: relative;
+  }
+  to {
+    border-radius: 1000px;
+    background-color: #317AD8;
+    position: relative;
+  }
+}
+
+@-webkit-keyframes box {
+  from {
+    border-radius: 0px;
+    background-color: #592d00;
+  }
+  to {
+    border-radius: 1000px;
+    background-color: #317AD8;
+  }
+}
+
+#cratersContainer {
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-duration: 15s;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-duration: 15s;
+}
+
+.crater {
+  width: 25px;
+  height: 25px;
+  background-color: #0094d8;
+  border-radius: 100px;
+  margin-left: 170px;
+  margin-top: 70px;
+  position: absolute;
+}
+
+.crater2 {
+  width: 35px;
+  height: 35px;
+  background-color: #013bb7;
+  border-radius: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.crater3 {
+  width: 15px;
+  height: 15px;
+  background-color: #2b0d72;
+  border-radius: 100px;
+  margin-left: 80px;
+  opacity: 0.6;
+  margin-top: 180px;
+  position: absolute;
+}
+
+.crater4 {
+  width: 19px;
+  height: 19px;
+  background-color: #3880b1;
+  border-radius: 100px;
+  margin-left: 170px;
+  margin-top: 155px;
+  position: absolute;
+}
+
+.crater5 {
+  width: 40px;
+  height: 40px;
+  background-color: #5211bb;
+  opacity: 0.4;
+  border-radius: 100px;
+  margin-left: 125px;
+  margin-top: 100px;
+  position: absolute;
+}
+
+#starsContainer {
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-duration: 15s;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-duration: 15s;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: white;
+  border-radius: 500px;
+  margin-top: -250px;
+}
+
+.star2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: white;
+  border-radius: 500px;
+  margin-top: -140px;
+  left: 30%;
+}
+
+.star3 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: white;
+  border-radius: 500px;
+  margin-top: -250px;
+  right: 35%;
+}
+
+.star4 {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: white;
+  border-radius: 500px;
+  margin-top: -70px;
+  right: 20%;
+}
+
+.star5 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-color: white;
+  border-radius: 500px;
+  margin-top: -170px;
+  right: 10%;
+}
+
+.star6 {
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  background-color: white;
+  border-radius: 500px;
+  margin-top: -90px;
+  left: 15%;
+}
+
+.star7 {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  background-color: white;
+  border-radius: 500px;
+  margin-top: 35px;
+  right: 35%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*Animation for the div container end.*/
