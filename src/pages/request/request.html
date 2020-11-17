@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#000000" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web site created using HTML5/CSS3/JAVASCRIPT" />
+
+  <!-- Links -->
+  <link href="../../assets/icon/favicon.ico" hreflang="en-us" rel="icon" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../styles/global.css">
+  <link rel="stylesheet" href="../../styles/responsive.css">
+  <link rel="stylesheet" href="../../styles/main.css">
+  <link rel="stylesheet" href="request.css">
+  <!-- Links -->
+
+  <title>ACE</title>
+</head>
+
+<body>
+  <div>
+    <h1 id="logo">ACE</h1>
+    <header>
+      <nav id="menu">
+        <ul>
+          <li> <a class="link" href="https://disrupt2021.netlify.app/">Voltar para Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="fastContainer" id="home">
+      <main>
+        <section class="backgorundform">
+          <form id="form" action="/" method="GET">
+            <h1>Crie seu plano de viagem</h1>
+            <h5>Preencha os campos abaixo para fazer o plano</h5>
+            <div class="row">
+              <div class="divLabel">
+                <label for="name">Nome completo do responsável</label>
+              </div>
+              <div class="divInput">
+                <input type="text" id="username" placeholder="Digite seu nome..." required autofocus>
+              </div>
+            </div>
+            <div class="row">
+              <div class="divLabel">
+                <label for="birthday">Data de nacimento</label>
+              </div>
+              <div class="divInput">
+                <input type="date" id="birthday" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="divLabel">
+                <label for="email">Email do responsável</label>
+              </div>
+              <div class="divInput">
+                <input type="email" id="email" placeholder="Digite seu Email..." required autofocus>
+              </div>
+            </div>
+            <div class="row">
+              <div class="divLabel">
+                <label for="options">Quantidade de pessoas</label>
+              </div>
+              <select id="options" class="divInput">
+                <option value="Unico">1</option>
+                <option value="2 Passageiros">2</option>
+                <option value="3 Passageiros">3</option>
+                <option value="4 Passageiros">4</option>
+              </select>
+            </div>
+            <div class="row">
+              <div class="divLabel">
+                <label for="traveloptions">Onde você deseja sé hospedar</label>
+              </div>
+              <select id="traveloptions" class="divInput">
+                <option value="Thanators">Thanators</option>
+                <option value="Naay Beach">Na'ay Beach</option>
+                <option value="Hometree">Hometree</option>
+                <option value="Hallelujah">Hallelujah</option>
+              </select>
+            </div>
+            <div class="row">
+              <div class="divLabel">
+                <label for="date">Data da viagem</label>
+              </div>
+              <div class="divInput">
+                <input type="date" id="datetravel" required>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="EFETUAR COMPRA" id="result" required>
+            </div>
+          </form>
+          <div class="Listview">
+            <h1>Lista de plano de passageiros</h1>
+            <div class="viewpassangers">
+              <p id="userResponsible"></p>
+              <p id="userBirthday"></p>
+              <p id="userEmails"></p>
+              <p id="userFamilie"></p>
+              <p id="userhotel"></p>
+              <p id="userTravel"></p>
+              <h1>Valores da viagem</h1>
+              <p id="hotelvalue"></p>
+              <p id="rocketvalue"></p>
+              <p id="finalprice"></p>
+              <br>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+
+  </div>
+  <script src="request.js"></script>
+</body>
+
+</html>
