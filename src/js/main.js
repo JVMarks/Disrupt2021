@@ -1,5 +1,5 @@
 /*MENU SCROLL*/
-const menuItems = document.querySelectorAll('#menu a');
+const menuItems = document.querySelectorAll('#menu .link');
 function getScrollTopByHref(element) {
   const id = element.getAttribute('href');
   return document.querySelector(id).offsetTop;

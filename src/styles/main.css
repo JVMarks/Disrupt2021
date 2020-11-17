@@ -54,6 +54,39 @@ li {
   font-size: .8em;
 }
 
+.link2 {
+  position: relative;
+}
+
+.link2:after {
+  content: '';
+  position: absolute;
+  bottom: -.4em;
+  left: 50%;
+  right: 50%;
+  height: 1px;
+  background: currentColor;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.link2:hover:after {
+  left: 0;
+  right: 0;
+  height: 2px;
+}
+
+.link2:before {
+  position: absolute;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  left: -10px;
+  color: #eee;
+  opacity: .3;
+  font-weight: 100;
+  font-size: .8em;
+}
+
 nav ul li {
   float: left;
   font-family: 'Roboto', sans-serif;
