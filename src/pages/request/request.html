@@ -92,29 +92,50 @@
               </div>
             </div>
             <div class="row">
-              <input type="submit" value="EFETUAR COMPRA" id="result" required>
+              <input type="submit" value="EFETUAR COMPRA" id="result">
             </div>
           </form>
-          <div class="Listview">
-            <h1>Lista de plano de passageiros</h1>
-            <div class="viewpassangers">
-              <p id="userResponsible"></p>
-              <p id="userBirthday"></p>
-              <p id="userEmails"></p>
-              <p id="userFamilie"></p>
-              <p id="userhotel"></p>
-              <p id="userTravel"></p>
-              <h1>Valores da viagem</h1>
-              <p id="hotelvalue"></p>
-              <p id="rocketvalue"></p>
-              <p id="finalprice"></p>
-              <br>
-            </div>
+        </section>
+
+        <section class="Listview">
+          <h1>LISTA DE PASSAGEIROS</h1>
+          <div class="tbl-header">
+            <table>
+              <thead>
+                <tr>
+                  <th>Nome do Responsavel</th>
+                  <th>Data de nacimento</th>
+                  <th>Email</th>
+                  <th>Passageiros</th>
+                  <th>Hospedagem</th>
+                  <th>Data da viagem</th>
+                  <th>Valor Hospedagem</th>
+                  <th>Valor do Transporte</th>
+                  <th>Valor Final</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+          <div class="tbl-content">
+            <table>
+              <tbody>
+                <tr>
+                  <td id="userResponsible"></td>
+                  <td id="userBirthday"></td>
+                  <td id="userEmails"></td>
+                  <td id="userFamilie"></td>
+                  <td id="userhotel"></td>
+                  <td id="userTravel"></td>
+                  <td id="hotelvalue"></td>
+                  <td id="rocketvalue"></td>
+                  <td id="finalprice"></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </section>
       </main>
     </div>
-
 
   </div>
   <script src="request.js"></script>

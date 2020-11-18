@@ -2,11 +2,13 @@
 .backgorundform {
   left: 0;
   right: 0;
-  margin-top: 10rem;
   opacity:0.9;
   padding: 20px;
   display: flex;
+  border-top: none;
+  margin-top: 10rem;
   border-radius: 8px;
+  border-bottom: none;
   flex-direction: column;
   justify-content: center;
   background-color: #317AD8;
@@ -32,9 +34,9 @@
 .backgorundform h5{
   display: flex;
   color: white;
-  font-size: 0.9rem;
   font-weight: 700;
   text-align: left;
+  font-size: 0.9rem;
   font-style: italic;
   font-family: League Spartan, Helvetica, sans-serif;
 }
@@ -82,34 +84,87 @@ input[type=submit]:hover {
   display: table;
 }
 
+/*TABLE*/
 .Listview{
- margin-top: 1rem;
+  margin-top: 1rem;
+  border-bottom: none;
+  margin-bottom: 2rem;
 }
-
+  
 .Listview h1{
   display: flex;
   color: white;
   font-size: 2rem;
   font-weight: 700;
-  text-align: left;
-  font-style: italic;
+  margin-top: 1rem;
+  justify-content: center;
   font-family: League Spartan, Helvetica, sans-serif;
 }
 
-.Listview p{
-  font-weight: 300;
-  color: white;
+table{
+  right: 0;
+  left: 0;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;   
+}
+
+.tbl-header{
+  margin-top: 1rem;
+  background-color: rgba(255,255,255,0.3);
+ }
+
+.tbl-content{
+  height:30vh;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+th{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 20px 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+td{
+  padding: 20px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align:middle;
+  text-transform: uppercase;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
 }
 
 @media screen and (max-width: 600px) {
   .backgorundform{
     margin-top: 15rem;
   }
-
+  
   .Listview{
-    height: 39rem;
+    height: 30rem;
   }
+
   .Listview h1{
     font-size: 1.5rem;
+  }
+
+  th{
+    padding: 1px 1px;
+    font-size: 0.1rem;
+  }
+
+  td{
+    padding: 1px 1px;
+    font-size: 0.1rem;
   }
 }

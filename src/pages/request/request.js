@@ -48,15 +48,17 @@ formResult.addEventListener('submit', (event) => {
 
   finalResult = lodging + rocket;
 
-  document.querySelector('#userResponsible').textContent = `Nome do Comprador: ${name}`;
-  document.querySelector('#userBirthday').textContent = `Data de nacimento: ${birthday}`;
-  document.querySelector('#userEmails').textContent = `Endereço de email: ${email}`;
-  document.querySelector('#userFamilie').textContent = `Quantidade de membros da família: ${familie}`;
-  document.querySelector('#userhotel').textContent = `Local da Hóspedagem: ${hotel}`;
-  document.querySelector('#userTravel').textContent = `Data da viagem: ${traveldate}`;
 
-  document.querySelector('#hotelvalue').textContent = `Valor total da hospedagem: R$ ${lodging.toFixed(2)} `;
-  document.querySelector('#rocketvalue').textContent = `Valor total do translado: R$ ${rocket.toFixed(2)} `;
-  document.querySelector('#finalprice').textContent = `Valor final da viagem: R$ ${finalResult.toFixed(2)} `;
+  document.querySelector('#userResponsible').textContent = `${name}`;
+  document.querySelector('#userBirthday').textContent = `${birthday}`;
+  document.querySelector('#userEmails').textContent = `${email}`;
+  document.querySelector('#userFamilie').textContent = `${familie}`;
+  document.querySelector('#userhotel').textContent = `${hotel}`;
+  document.querySelector('#userTravel').textContent = `${traveldate}`;
+
+  document.querySelector('#hotelvalue').textContent = `R$ ${lodging.toFixed(2)} `;
+  document.querySelector('#rocketvalue').textContent = `R$ ${rocket.toFixed(2)} `;
+  document.querySelector('#finalprice').textContent = `R$ ${finalResult.toFixed(2)} `;
+
 
 });
